@@ -1,10 +1,10 @@
-# ElTiempo2
+# ElTiempo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
+Este proyecto fue creado con [Angular CLI](https://github.com/angular/angular-cli) versión 1.0.0-rc.2.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ejecuta `ng serve` y navega a `http://localhost:4200/`. La aplicación automáticamente recargará si realizas cualquier cambio en el código de los archivos.
 
 ## Code scaffolding
 
