@@ -1,0 +1,17 @@
+<div class="container">
+  <hr class="divider-title">
+  <div class="row">
+
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" *ngFor="let municipe of listHistoricMunicipes" (click)="onTouchMunicipeCarousel(municipe)">
+      <div class="project">
+        <figure class="img-responsive" >
+          <img src="https://t3.ftcdn.net/jpg/00/91/91/36/240_F_91913627_WFJwgOxIT7SAr4HSj0cDyMo4mg4XLKkh.jpg">
+          <span class="actions">
+                        <span class="project-details">{{municipe.name}}</span>
+                    </span>
+        </figure>
+      </div>
+    </div>
+
+  </div>
+</div>

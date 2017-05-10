@@ -1,0 +1,52 @@
+<div class="main-container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="weather-card one">
+        <div class="top">
+          <div class="wrapper">
+            <div class="mynav">
+              <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
+            </div>
+            <h1 class="heading">{{municipeSelected.name}}</h1>
+            <h3 class="location">{{municipeSelected.main}} - {{municipeSelected.description}}</h3>
+            <p class="temp">
+              <span class="temp-value">{{municipeSelected.temp}}</span>
+              <span class="deg">0</span>
+              <a href="javascript:;"><span class="temp-type">C</span></a>
+            </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="wrapper">
+            <ul class="forecast">
+              <a href="javascript:;"><span class="lnr lnr-chevron-up go-up"></span></a>
+              <li class="active">
+                <span class="date">Humidity</span>
+                <span class="lnr condition">
+									<span class="temp">{{municipeSelected.humidity}}<span class="temp-type">%</span></span>
+								</span>
+              </li>
+              <li class="active">
+                <span class="date">Wind speed</span>
+                <span class="lnr condition">
+									<span class="temp">{{municipeSelected.speed}}<span class="temp-type"> m/s</span></span>
+								</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-md-offset-3">
+      <form #f="ngForm">
+        <div class="form-group selector-municipes">
+          <div class="notice notice-info" *ngFor="let municipe of listMunicipes" (click)="onTouchMunicipe(municipe)">
+            {{municipe}}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
