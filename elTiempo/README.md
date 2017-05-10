@@ -6,11 +6,13 @@ Este proyecto fue creado con [Angular CLI](https://github.com/angular/angular-cl
 
 - [Descripción](#descripcion)
 - [Dependencias](#dependencias)
-- [Servidor de desarrollo](#servidor-de-dearrollo)
+- [Servidor de desarrollo](#servidordedearrollo)
 
 ## Descripción
 
 El proyecto es un ejemplo sencillo del potencial de Angular 2 en combinación con la librería [Redux](http://redux.js.org/), para la sincronización del LocalStorage y la información de la aplicación. Está formada por un sistema sencillo de autenticación. Los usuarios registrados se guardan en el LocalStorage. 
+
+Este proyecto forma parte de las práctics realizadas en el último año del CFGS de Desarrollo de Aplicaciones Multiplataforma y sólo tienen como objeto aprender y familiarizarse con Angular y Redux. 
 
 ![SignIN](https://raw.githubusercontent.com/alejandro-ortega-freire/examples_angular2/master/elTiempo/imagesGit/elTiempoApp_SignIN.png)
 
