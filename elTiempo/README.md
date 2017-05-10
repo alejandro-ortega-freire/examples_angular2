@@ -12,7 +12,7 @@ El proyecto es un ejemplo sencillo del potencial de Angular 2 en combinación co
 - Una primera página donde se muestra el tiempo que hace en ese instante en el municipio indicado en el registro (vía [OpenWeatherMap](https://openweathermap.org/api), y de aquellos otros municipios de la isla de Tenerife donde vaya pulsando.
 - Una segunda página a modo de ejemplo sencillo de perfil. 
 
-![SignIN](https://github.com/alejandro-ortega-freire/examples_angular2/elTiempo/imagesGit/elTiempoApp_SignIN.png)
+![SignIN](https://raw.githubusercontent.com/alejandro-ortega-freire/examples_angular2/master/elTiempo/imagesGit/elTiempoApp_SignIN.png)
 
 ## Servidor de desarrollo
 
